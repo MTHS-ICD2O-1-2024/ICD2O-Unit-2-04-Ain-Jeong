@@ -11,10 +11,10 @@
  */
 function calculateAreaOfTriangle() {
   // input
-  const lengthOfTriangle = (
+  const lengthOfTriangle = parseFloat(
     document.getElementById("length-of-triangle").value
   )
-  const heightOfTriangle = (
+  const heightOfTriangle = parseFloat(
     document.getElementById("width-of-triangle").value
   )
 
