@@ -1,7 +1,7 @@
 // Copyright (c) 2025 Ain Jeong All rights reserved
 //
 // Created by: Ain Jeong
-// Created on: Sep 2020
+// Created on: Mar 2025
 // This file contains the JS functions for index.html
 
 "use strict"
@@ -11,10 +11,10 @@
  */
 function calculateAreaOfTriangle() {
   // input
-  const lengthOfTriangle = parseInt(
+  const lengthOfTriangle = (
     document.getElementById("length-of-triangle").value
   )
-  const heightOfTriangle = parseInt(
+  const heightOfTriangle = (
     document.getElementById("width-of-triangle").value
   )
 
