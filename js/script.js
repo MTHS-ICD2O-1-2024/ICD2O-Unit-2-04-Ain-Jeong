@@ -7,16 +7,21 @@
 "use strict"
 
 /**
- * This function calculates area of a triangle.
+ * This function calculates the area of a triangle.
  */
-function calculateAreaOfTriangle () {
+function calculateAreaOfTriangle() {
   // input
-  const lengthOfTriangle = parseInt(document.getElementById('length-of-triangle').value)
-  const heightOfTriangle = parseInt(document.getElementById('width-of-triangle').value)
+  const lengthOfTriangle = parseInt(
+    document.getElementById("length-of-triangle").value
+  );
+  const heightOfTriangle = parseInt(
+    document.getElementById("width-of-triangle").value
+  );
 
   // process
-  const areaOfTriangle = (lengthOfTriangle * heightOfTriangle) / 2
+  const areaOfTriangle = (lengthOfTriangle * heightOfTriangle) / 2;
 
   // output
-  document.getElementById('area').innerHTML = 'Area is: ' + areaOfTriangle + ' cm²'
+  document.getElementById("area").innerHTML = 
+    "Area is: " + areaOfTriangle + " cm²";
 }
